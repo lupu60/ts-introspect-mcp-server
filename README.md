@@ -15,7 +15,7 @@ This tool introspects TypeScript packages and source code to extract exported sy
 This tool can be run as an MCP server to provide TypeScript package introspection capabilities to LLM applications like Claude for Desktop. You can start it using npx:
 
 ```bash
-npx ts-introspect-mcp-server
+npx @t3ta/ts-introspect-mcp-server
 ```
 
 To integrate it with your project, create a `.roo/mcp.json` configuration file:
